@@ -24,7 +24,7 @@ Supprimmer les enregistrements doubles
 
  ![TCD](avg_income_gender.png)
 
-  L'image montre un tableau croisé dynamique qui présente les revenus moyens en fonction des décisions d'achat (Oui ou Non) et du sexe (Femme ou Homme). Les revenus moyens sont plus élevés pour les hommes que pour les femmes, que ce soit pour ceux qui ont une décision d'achat positive ou négative. En moyenne, les revenus sont également plus élevés pour ceux qui ont pris la décision d'achat (Oui) par rapport à ceux qui ne l'ont pas prise (Non). Le tableau met en évidence des disparités de revenus basées sur le sexe et les décisions d'achat.
+ Le tableau met en évidence des disparités de revenus basées sur le sexe et les décisions d'achat. Les revenus moyens sont plus élevés pour les hommes que pour les femmes, que ce soit pour ceux qui ont une décision d'achat positive ou négative. En moyenne, les revenus sont également plus élevés pour ceux qui ont une décision positive. 
 
  ### 2. Analyse des Achats en Fonction des Distances Parcourues
 
