@@ -30,7 +30,7 @@ Supprimmer les enregistrements doubles
 
  ![TCD](count_purchased_bike.png)
 
-    Le tableau montre lles résultats des décisions d'achat(positives ou négatives) en fonction des distances parcourues. Les résultats indiquent que les distances comprises entre 0-1 miles et 2-5 miles ont les taux d'achat les plus élevés.
+    Le tableau montre les résultats des décisions d'achat(positives ou négatives) en fonction des distances parcourues. Les résultats indiquent que les distances comprises entre 0-1 miles et 2-5 miles ont les taux d'achat les plus élevés.
 
 - Analyse des Achats de Vélos par Groupe d'Âge
 
