@@ -1,8 +1,7 @@
 # Road Accident - Excel
 
 ## Dataset Source
-[Road Accident](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG40QXp5WmJsOWVwblNKelhjMjM4RF9mdEt1QXxBQ3Jtc0tsTnNNcDNIcWhZLVJHbGc5OU55akF5WFNacnhGMVVqVUZobXYtcVo1WURCRU9jcTllQ2UzTjVsa20yWEtkZWprVl9XeWdqaXpEX2l6cGt0ZHVsdjVvNTZ4OFhKdHZibFEwZld3a1d1REtJa3dOcVlFUQ&q=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1R_uaoZL18nRbqC_MULVne90h3SdRbAyn%2Fedit%3Fusp%3Dsharing%26ouid%3D116890999875311477003%26rtpof%3Dtrue%26sd%3Dtrue&v=XeWfLNe3moM)
-
+[Road Accident](https://docs.google.com/spreadsheets/d/1R_uaoZL18nRbqC_MULVne90h3SdRbAyn/edit?rtpof=true&sd=true&pli=1&gid=1319047066#gid=1319047066)
 
 ## Objectif
 Nous analysons les accidents de la route pour identifier les facteurs influençant leur occurrence, tels que les conditions météorologiques, l'état des infrastructures et les caractéristiques des véhicules.
@@ -13,12 +12,12 @@ Nous analysons les accidents de la route pour identifier les facteurs influença
 ### 1. Suppression des Doublons
 Supprimmer les enregistrements doubles
 ### 2. Transformation de colonne
- - Remplacer les éléments M et F de la colonne Gender respectivement en Male et Female
- - Remplacer les éléments 10+ de la colonne Commute en More than 10
- - Ajout de la colonne Age Bracket pour catégoriser les clients en fonction de leur Age 'Young' pour les clients de moins de 31 ans, 'Middle Age' pour les clients de plus de 31 ans et de moins de 51 ans et enfin 'Old' pour les plus de 51 ans
+ - Remplacer l' élément Fetal de la colonne Accident Severity par Fatal
+ - Ajouter les colone month(mois) et year(année) en se basant sur la colonne accident date
+
  ### 3. Apperçu du Jeu de données néttoyé
 
-![data sheet](bike_data_sheet.png)
+![data sheet](road_accident_data_sheet.png)
  ## II. Tableaux croisés dynamiques 
  ### 1. Analyse des Revenus Moyens en Fonction des Décisions d'Achat
 
