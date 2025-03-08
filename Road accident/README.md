@@ -11,37 +11,99 @@ Nous analysons les accidents de la route pour identifier les facteurs influença
 
 ### 1. Suppression des Doublons
 Supprimmer les enregistrements doubles
-### 2. Transformation de colonne
+### 2. Transformation des données
  - Remplacer l' élément Fetal de la colonne Accident Severity par Fatal
  - Ajouter les colone month(mois) et year(année) en se basant sur la colonne accident date
 
  ### 3. Apperçu du Jeu de données néttoyé
 
-![data sheet](road_accident_data_sheet.png)
+![data sheet](road_accident_data_sheet.png) 
  ## II. Tableaux croisés dynamiques 
- ### 1. Analyse des Revenus Moyens en Fonction des Décisions d'Achat
+ ### 1. Total des victimes
 
- ![TCD](avg_income_gender.png)
+ ![TCD](total_accident.png)
 
-    L'image montre un tableau croisé dynamique qui présente les revenus moyens en fonction des décisions d'achat (Oui ou Non) et du sexe (Femme ou Homme). Les revenus moyens sont plus élevés pour les hommes que pour les femmes, que ce soit pour ceux qui ont pris la décision d'achat (Oui) ou non (Non). En moyenne, les revenus sont également plus élevés pour ceux qui ont pris la décision d'achat (Oui) par rapport à ceux qui ne l'ont pas prise (Non). Le tableau met en évidence des disparités de revenus basées sur le sexe et les décisions d'achat.
+Nous avons dénombrés 417883 victimes
 
- ### 2. Analyse des Achats en Fonction des Distances Parcourues
+ ### 2. Analyse des Accidents en Fonction des Sévérités
 
- ![TCD](count_purchased_bike.png)
+ ![TCD](accident_per_severity.png)
 
 
-    Le tableau montre les résultats des décisions d'achat(positives ou négatives) en fonction des distances parcourues. Les résultats indiquent que les distances comprises entre 0-1 miles et 2-5 miles ont les taux d'achat les plus élevés.
+   Nous constatons la sévérité légère est majoritaire ensuite on a sérieuse et enfin fatal
 
- ### 3. Analyse des Achats de Vélos par Groupe d'Âge
+ ### 3. Analyse des Accidents en Fonction du type de véhicule
 
- ![TCD](count_purchased_bike_1.png)
+ ![TCD](accident_per_car_type.png)
 
-   Le tableau ci-dessous montre les résultats des décisions d'achat(positives ou négatives) de vélos en fonction des groupes d'âge (Jeune, Âge moyen, Âgé).Les résultats indiquent que les personnes d'âge moyen ont les taux d'achat les plus élevés, suivies par les les personnes âgées et sles jeunes.
+  Pour réaliser ce tableau il a fallu créer des éléments calculés :
+
+  Motorcycles = motorcycle 125cc and under + motorcycle 50cc and under + motorcycle over 125cc and up to 500cc + motorcycle 500cc
+
+  Vans = Van + good 7,5 tones mgw and over +  good over 3,5t and under 7,5t + van/goods 3,5 tones  mgw or under
+
+  Cars = car + taxi/private hire car
+
+  Bus  = minibus + bus or coach
+
+  others = other + pedal cycle
+
+- Les voitures sont de loin les plus impliquées dans les accidents avec victimes (~80%). Cela peut être dû à leur forte présence sur la route.
+- Les motos et les vans ont des nombres similaires, ce qui peut suggérer que les deux types de véhicules présentent un risque comparable en termes de victimes.
+- Les bus ont un nombre relativement bas de victimes, ce qui pourrait indiquer soit une conduite plus sécurisée, soit un nombre inférieur d’accidents.
+- Les véhicules agricoles et "Others" ont un impact marginal.
+
+ ### 4. Analyse des Accidents en Fonction du type de route
+
+ ![TCD](accident_per_road_type.png)
+
+- Single carriageway (route à une chaussée) : 309 698 victimes (74,1% du total).
+- Dual carriageway (route à deux chaussées séparées) : 67 368 victimes (16,1%).
+- Roundabout (rond-point) : 26 828 victimes (6,4%).
+- One way street (rue à sens unique) : 7 389 victimes (1,8%).
+- Slip road (bretelle d'accès) : 4 679 victimes (1,1%).
+- (vide) (catégorie non renseignée) : 1 921 victimes (0,5%).
+
+ ### 5. Analyse des Accidents en Fonction de la surface de la route
+
+ ![TCD](accident_per_road_surface.png)
+
+- Dry (route sèche) : 279445 victimes (66,87% du total).
+- Wet (route mouillé) : 115261 victimes (25,58% du total).
+- (vide) (catégorie non renseignée) : 396 victimes (0,09%).
+- Snow/ice (route neigeuse) : 22781 victimes (5,45% du total).
+
+ ### 6. Analyse des Accidents en Fonction du type de region
+
+ ![TCD](accident_per_region_type.png)
+
+- Rural : 162,0k victimes (38,77% du total).
+- Urban : 255,9K victimes (61,23% du total).
+
+ ### 7. Analyse des Accidents en Fonction de la luminosité
+
+ ![TCD](accident_per_light_condition.png)
+
+- lumière du jour : 305,0k victimes (73,15% du total).
+- Sombre  : 112,9K victimes (26,85% du total).
+
+ ### 8. Ensemble des TCD 
+ ![TCD](road_accident_data_analysis.png)
 
  ## III. Tableau de bord 
 
  - Tableau de bord
 
- ![TCD](bike_dashbord.png)
+ ![TCD](road_accident_data_dashbord.png)
 
- ce tableau de bord nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur le statut marital, la région et l'éducation des clients
+ ce tableau de bord nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur la date et le type de zone
+
+## IV. Indices de Performances 
+
+ victimes mortelles = 7135 soit 1,7%
+
+ victimes graves = 59312 soit 14,3%
+
+ victimes légères = 351436 soit 84,1 %
+
+ victimes en voitures = 333485 soit 79,8%
