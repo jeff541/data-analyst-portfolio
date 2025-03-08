@@ -13,8 +13,8 @@ Ce projet vise à identifier et à analyser les facteurs clés qui influencent l
 ### 1. Suppression des Doublons
 Supprimmer les enregistrements doubles
 ### 2. Transformation de colonne
- - les éléments M et F de la colonne Gender respectivement en Male et Female
- - les éléments 10+ de la colonne Commute en More than 10
+ - Remplacer les éléments M et F de la colonne Gender respectivement en Male et Female
+ - Remplacer les éléments 10+ de la colonne Commute en More than 10
  - Ajout de la colonne Age Bracket pour catégoriser les clients en fonction de leur Age 'Young' pour les clients de moins de 31 ans, 'Middle Age' pour les clients de plus de 31 ans et de moins de 51 ans et enfin 'Old' pour les plus de 51 ans
  ### 3. Apperçu du Jeu de données néttoyé
 
