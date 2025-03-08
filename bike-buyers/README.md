@@ -24,13 +24,13 @@ Supprimmer les enregistrements doubles
 
  ![TCD](avg_income_gender.png)
 
-    L'image montre un tableau croisé dynamique qui présente les revenus moyens en fonction des décisions d'achat (Oui ou Non) et du sexe (Femme ou Homme). Les revenus moyens sont plus élevés pour les hommes que pour les femmes, que ce soit pour ceux qui ont pris la décision d'achat (Oui) ou non (Non). En moyenne, les revenus sont également plus élevés pour ceux qui ont pris la décision d'achat (Oui) par rapport à ceux qui ne l'ont pas prise (Non). Le tableau met en évidence des disparités de revenus basées sur le sexe et les décisions d'achat.
+  L'image montre un tableau croisé dynamique qui présente les revenus moyens en fonction des décisions d'achat (Oui ou Non) et du sexe (Femme ou Homme). Les revenus moyens sont plus élevés pour les hommes que pour les femmes, que ce soit pour ceux qui ont pris la décision d'achat (Oui) ou non (Non). En moyenne, les revenus sont également plus élevés pour ceux qui ont pris la décision d'achat (Oui) par rapport à ceux qui ne l'ont pas prise (Non). Le tableau met en évidence des disparités de revenus basées sur le sexe et les décisions d'achat.
 
  ### 2. Analyse des Achats en Fonction des Distances Parcourues
 
  ![TCD](count_purchased_bike.png)
 
-    Le tableau montre les résultats des décisions d'achat(positives ou négatives) en fonction des distances parcourues. Les résultats indiquent que les distances comprises entre 0-1 miles et 2-5 miles ont les taux d'achat les plus élevés.
+  Le tableau montre les résultats des décisions d'achat(positives ou négatives) en fonction des distances parcourues. Les résultats indiquent que les distances comprises entre 0-1 miles et 2-5 miles ont les taux d'achat les plus élevés.
 
  ### 3. Analyse des Achats de Vélos par Groupe d'Âge
 
