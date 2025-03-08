@@ -10,7 +10,7 @@ L'objectif de ce projet est de nettoyer les données du dataset des licenciement
 
 ## Étapes de Nettoyage des Données
 
-### 1. Suppression des Duplicatas
+### 1. Suppression des Doublons
 
 1. Création d'une table temporaire `layoffs_staging` pour éviter de modifier la table d'origine :
     ```sql
