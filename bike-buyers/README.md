@@ -38,10 +38,10 @@ Supprimmer les enregistrements doubles
 
    Le tableau ci-dessous montre les résultats des décisions d'achat(positives ou négatives) de vélos en fonction des groupes d'âge (Jeune, Âge moyen, Âgé).Les résultats indiquent que les personnes d'âge moyen ont les taux d'achat les plus élevés, suivies par les les personnes âgées et sles jeunes.
 
- ### 5. Tableau de board 
+ ### 5. Tableau de bord 
 
- - Tableau de board
+ - Tableau de bord
 
  ![TCD](bike_dashbord.png)
 
- ce tableau de board nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur le statut marital, la région et l'éducation des clients
+ ce tableau de bord nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur le statut marital, la région et l'éducation des clients
