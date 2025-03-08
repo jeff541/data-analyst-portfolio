@@ -44,4 +44,4 @@ Supprimmer les enregistrements doubles
 
  ![TCD](bike_dashbord.png)
 
- ce tableau nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur le statut marital, la région et l'éducation des clients
+ ce tableau de board nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur le statut marital, la région et l'éducation des clients
