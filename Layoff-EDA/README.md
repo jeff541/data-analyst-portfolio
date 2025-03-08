@@ -4,7 +4,7 @@ Ce projet vise à explorer un ensemble de données sur les licenciements afin d'
 
 ## Description du projet
 
-L'analyse repose sur un ensemble de requêtes SQL appliquées à la table `layoffs_staging2`, qui contient les données sur les licenciements d'entreprises de divers secteurs et pays.
+L'analyse repose sur un ensemble de requêtes SQL appliquées à la table `layoffs_staging2` issu du projet 2022-layoff-cleaning-project , qui contient les données sur les licenciements d'entreprises de divers secteurs et pays.
 
 ## Requêtes SQL et leurs objectifs
 
