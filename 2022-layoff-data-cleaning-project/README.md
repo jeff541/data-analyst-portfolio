@@ -1,6 +1,6 @@
 # Data Cleaning - Layoffs Dataset (Kaggle)
 
-## Dataset Source
+## Source de données
 [Kaggle: Layoffs 2022](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
 ## Objectif
