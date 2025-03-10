@@ -75,6 +75,4 @@ Il s'agit de la valeur actuelle de satisfaction dans le travail sur une échelle
 
  ## III. Rapport Final
 
- - Tableau de bord
-
  ![TCD](Repport.png)
