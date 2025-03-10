@@ -37,11 +37,11 @@ Supprimmer les enregistrements doubles
  ### 3. Pays des participants
 ![TCD](country_of_survey_takers.png)
 
-41,43% des participants viennent des USA
-35,56% des participants viennent des Pays non répertoriés
-11,59% des participants viennent de l'inde
-6,35% des participants viennent des Royaume-Uni
-5,08% des participants viennent du Canada
+- 41,43% des participants viennent des USA
+- 35,56% des participants viennent des Pays non répertoriés
+- 11,59% des participants viennent de l'inde
+- 6,35% des participants viennent des Royaume-Uni
+- 5,08% des participants viennent du Canada
 
  ### 4. Moyenne des salaires par rôle
 ![TCD](average_salary_by_job_title.png)
@@ -56,11 +56,11 @@ Le language le plus utilisés est python et une grande partie des utilisateurs s
  ### 6 Difficulté pour entrer dans le monde de la data. 
 ![TCD](difficulty_to_brake_into_data.png)
 
-42,7% des participants  trouvent le domaine de la data ni facile ni difficile
-24,76% des participants trouvent ce domaine difficile
-21,27% des participants trouvent ce domaine facile
-6,98% des participants trouvent ce domaine très difficile
-4,29% des participants trouvent ce domaine très facile
+- 42,7% des participants  trouvent le domaine de la data ni facile ni difficile
+- 24,76% des participants trouvent ce domaine difficile
+- 21,27% des participants trouvent ce domaine facile
+- 6,98% des participants trouvent ce domaine très difficile
+- 4,29% des participants trouvent ce domaine très facile
 
  ### 7. Satisfaction Salariale
 ![TCD](hapiness_salary.png)
