@@ -73,12 +73,36 @@ cette mesure vérifie si la période actuelle - 12 mois existe dans notre calend
    YTD_Quantities = TOTALYTD([Quantity],Fact_Sale[Date_Time])
  ``` 
  Cette mesure calcule la quantité vendue cumulé depuis le début de l'année jusqu'à la date actuelle
+
+  - Quantité Cumulé de l'an passé à la même période
+ ```dax
+   PYTD_Quantities = 
+CALCULATE(
+    [Quantity], 
+    SAMEPERIODLASTYEAR(Dim_Date[Date]), 
+    Dim_Date[Inpast] = TRUE
+)
+
+ ``` 
+cette mesure vérifie si la période actuelle - 12 mois existe dans notre calendrier grace à  Dim_Date[Inpast] = TRUE et calcule la quantité vendu cumulé à cette période 
+
   - Profit Brut Cumulé
  ```dax
    YTD_GrossProfit = TOTALYTD([Gross Profit],Fact_Sale[Date_Time])
  ``` 
-Elle calcule le profit brut cumulé (Gross Profit Year-To-Date) en additionnant toutes les valeurs de [Gross Profit] depuis le 1er janvier jusqu'à la date en cours
- 
+Elle calcule le profit brut cumulé (Gross Profit Year-To-Date) en additionnant toutes les valeurs de [Gross Profit] depuis le 1er janvier jusqu'à la date en cours 
+ - Quantité Cumulé de l'an passé à la même période
+ ```dax
+   PYTD_Gross_Profit = 
+CALCULATE(
+    [Gross Profit], 
+    SAMEPERIODLASTYEAR(Dim_Date[Date]), 
+    Dim_Date[Inpast] = TRUE
+)
+
+ ``` 
+cette mesure vérifie si la période actuelle - 12 mois existe dans notre calendrier grace à  Dim_Date[Inpast] = TRUE et calcule le profit brut cumulé à cette période 
+ s
  
 
  
