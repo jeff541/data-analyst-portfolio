@@ -91,7 +91,7 @@ cette mesure vérifie si la période actuelle - 12 mois existe dans notre calend
    YTD_GrossProfit = TOTALYTD([Gross Profit],Fact_Sale[Date_Time])
  ``` 
 Elle calcule le profit brut cumulé (Gross Profit Year-To-Date) en additionnant toutes les valeurs de [Gross Profit] depuis le 1er janvier jusqu'à la date en cours 
- - Quantité Cumulé de l'an passé à la même période
+ - Profit Brut Cumulé de l'an passé à la même période
  ```dax
    PYTD_Gross_Profit = 
 CALCULATE(
