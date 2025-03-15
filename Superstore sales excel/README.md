@@ -69,7 +69,7 @@ Supprimmer les enregistrements doubles
 
  - Tableau de bord
 
- ![TCD](superstore_dashbord.png)
+ ![TCD](dashbord.png)
 
  ce tableau de bord nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur les années et les catégories.
  
