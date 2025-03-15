@@ -43,19 +43,19 @@ Supprimmer les enregistrements doubles
 
  ### 4. Mode de livraison
 
- ![TCD](superstore_ship_mode.png)
+ ![TCD](ship_mode.png)
 
    Ici nous avons le classement par ordre croissant des modes de  livraisons les plus utilisés
 
 ### 5. Profits par Mois
 
- ![TCD](superstore_month_trend.png)
+ ![TCD](month_trend.png)
 
   ce tableau répartit les profits sur chaque mois de l'année
 
 ### 6. Profits par Type de clientelle
 
- ![TCD](superstore_segment.png)
+ ![TCD](segment.png)
 
   Profit en fonction du type de clientelle 
 
