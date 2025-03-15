@@ -39,22 +39,26 @@ Supprimmer les enregistrements doubles
 
  ![TCD](superstore_region.png)
 
-   Ici nous avons la répartition des profits par région
+  Ici nous avons la répartition des profits par région
+
  ### 4. Mode de livraison
 
  ![TCD](superstore_ship_mode.png)
 
    Ici nous avons le classement par ordre croissant des modes de  livraisons les plus utilisés
+
 ### 5. Profits par Mois
 
  ![TCD](superstore_month_trend.png)
 
   ce tableau répartit les profits sur chaque mois de l'année
+
 ### 6. Profits par Type de clientelle
 
  ![TCD](superstore_segment.png)
 
-  Profit en fonction du type de clientelle
+  Profit en fonction du type de clientelle 
+  
 ### 7. Top 10 des Etats les plus rentables
 
  ![TCD](superstore_state.png)
