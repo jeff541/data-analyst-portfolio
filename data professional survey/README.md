@@ -76,3 +76,8 @@ Il s'agit de la valeur actuelle de satisfaction dans le travail sur une échelle
  ## III. Rapport Final
 
  ![TCD](Repport.png)
+
+
+ 
+  ## Data Survey
+  [Télécharger le fichier](Data_Professional_Survey_Breakdown.pbix)

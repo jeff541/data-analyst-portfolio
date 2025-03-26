@@ -73,3 +73,5 @@ Supprimmer les enregistrements doubles
 
  ce tableau de bord nous montre des graphiques qui confirment nos analyses sur les tableaux croisés dynamiques et nous offre des option de filtre sur les années et les catégories.
  
+ ## Superstore sales excel
+ [Télécharger le fichier](superstore_sales.xlsx)

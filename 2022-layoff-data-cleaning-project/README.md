@@ -144,3 +144,6 @@ L'objectif de ce projet est de nettoyer les données du dataset des licenciement
 
 Les données sont maintenant propres et prêtes pour une analyse approfondie ! 🚀
 
+## Data Cleaning
+[Télécharger le fichier](data_cleaning.sql)
+

@@ -239,6 +239,6 @@ pour notre petite analyse nous avons fixé le filtre sur  l'année 2023 et sur l
 
  ![TCD](dashboard.png)
 
-
-
+## Plant Co Performance
+[Télécharger le fichier](plant_Co_Performance_2022_2024.pbix)
 

@@ -98,4 +98,5 @@ Détermine les trois entreprises ayant licencié le plus d'employés chaque ann�
 ## Technologies utilisées
  SQL (MySQL, PostgreSQL ou autre SGBD compatible)
 
-
+  ## Layoff EDA 
+  [Télécharger le fichier](exploring_datat.sql)
