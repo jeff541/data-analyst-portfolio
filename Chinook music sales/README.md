@@ -437,5 +437,5 @@ WHERE position <= 3 ;
 ![Top 3 Artist ](best_media_type.png)
 
 
-## Source de données
+## Chinooc music sales
 [Télécharger le projet](Automatisation_des_rapports_de_ventes.sql)
