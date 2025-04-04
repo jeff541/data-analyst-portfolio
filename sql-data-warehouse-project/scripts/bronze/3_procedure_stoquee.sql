@@ -146,12 +146,14 @@ BEGIN TRY
 	BEGIN CATCH
 		PRINT '========================================================================='
 		PRINT 'UNE ERREUR EST SURVENUE LORS DU CHARGEMENT DE LA COUCHE DE BRONZE'
-		PRINT 'MESSAGE D ERREUR' + ERROR_MESSAGE();
-		PRINT 'MESSAGE D ERREUR' + CAST(ERROR_NUMBER() AS NVARCHAR);
-		PRINT 'MESSAGE D ERREUR' + CAST(ERROR_STATE() AS NVARCHAR);
+		PRINT 'MESSAGE D ERREUR ' + ERROR_MESSAGE();
+		PRINT 'MESSAGE D ERREUR ' + CAST(ERROR_NUMBER() AS NVARCHAR);
+		PRINT 'MESSAGE D ERREUR ' + CAST(ERROR_STATE() AS NVARCHAR);
 		PRINT '========================================================================='
 	END CATCH
 END
 GO
+
+USE DataWarehouse;
 
 EXEC bronze.load_bronze;
