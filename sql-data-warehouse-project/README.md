@@ -1,0 +1,30 @@
+# Superstore sales - Excel
+
+## Source de données
+[Superstore](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+## Problématique métier
+Une entreprise souhaite mettre en place un datawarehouse pour la gestion de ses ventes
+
+## Objectif
+Mettre en place un datawarehouse avec l'architecture medaillon
+
+---
+### 1.  Etapes du projet
+
+ ![Plan](/sql-data-warehouse-project/docs/plan.png)
+
+ ### 2.  Analyse des besoins
+
+ L'entreprise a besoins d'un datawarehouse optimisé pour  avec des vues optimisées 
+ pour les requêtes sur les ventes
+
+ ### 3.  Architecture de données
+
+ ![Plan](/sql-data-warehouse-project/docs/architecture.png)
+
+ Couche Bronze : Les Données Brutes À cette première étape, nous stockons les données dans leur format initial. Ici, pas de transformation ni de modélisation ! On se contente d’un chargement par lots ou complet (Tronquer & Insérer) pour garantir une réception fidèle de l’ensemble des informations.
+
+Couche Argent : Données Nettoyées et Standardisées La seconde couche est dédiée à l’enrichissement de nos données. Un nettoyage minutieux, une standardisation, une normalisation, et l’ajout de colonnes dérivées nous permettent de créer une base fiable pour des analyses de qualité. Ce traitement par lots nous assure de disposer d’un jeu de données cohérent, même en cas de volumes importants.
+
+Couche Or : Données Prêtes pour l’Entreprise Enfin, la couche la plus aboutie offre aux utilisateurs finaux – qu’il s’agisse de professionnels de la BI, d’experts en visualisation ou d’analystes SQL – des vues intégrées. Grâce à des agrégations et des logiques métiers adaptées, nous pouvons proposer des schémas en étoile, des tables plates ou des tableaux agrégés pour répondre aux exigences stratégiques de l’entreprise.
