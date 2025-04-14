@@ -236,5 +236,5 @@ Les tables sont importées en direct query donc les visuels ne charge pas très 
 
 ## Piste d'Amélioration
 
-importer juste la table de fait en direct query et les tables de dimension normalement
+importer juste la table de fait en direct query et les tables de dimensions normalement
 
