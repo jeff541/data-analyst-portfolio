@@ -153,7 +153,7 @@ Les données sont importées en direct query de la base de données SQL SERVER
 
 ![data sheet](modelization.png)
 
-Nous avons un  modèle en étoile avec pour table de faits "Fact_Sale" et tables de dimensions "Dim_product", "Dim_Date", "Dim_Account"
+Nous avons un  modèle en étoile avec pour table de faits "Fact_Sale" et tables de dimensions "Dim_product", "Dim_Date", "Dim_Customers"
 
 "_mesure" et "Slc_values" servent juste pour les calculs et les filtres 
 
@@ -175,7 +175,7 @@ Nous avons un  modèle en étoile avec pour table de faits "Fact_Sale" et tables
 - YTD = quantité cumulé des ventes de l'an 2013
 - PYTD = quantité cumulé des ventes de l'an 2012
 - YTD vs PYTD = la variation des quantités vendues entre les années 2023 et 2022(hausse de 49,4K)
-- GP% = marge bénéficiaire de l'année 2023
+- GP% = marge bénéficiaire de l'année 2013
 
 ### 3. Profit Brut 2023
 
@@ -229,4 +229,12 @@ pour notre petite analyse nous avons fixé le filtre sur  l'année 2013 et sur l
 
 ## Plant Co Performance
 [Télécharger le fichier](/DatawareHouse%20Consumption/DatawareHouse%20Consummer.pbix)
+
+## Difficulté
+
+Les tables sont importées en direct query donc les visuels ne charge pas très rapidement
+
+## Piste d'Amélioration
+
+importer juste la table de fait en direct query et les tables de dimension normalement
 
