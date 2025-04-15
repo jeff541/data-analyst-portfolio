@@ -1,0 +1,6 @@
+{
+    "server" : "smtp.gmail.com",
+    "port" :  "465",
+    "email":"votreadresse@gmail.com",
+    "pwd":"mot de passe application configurable sur google account"
+}
