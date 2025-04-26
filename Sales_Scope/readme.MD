@@ -21,7 +21,7 @@ Supprimmer les enregistrements doubles
  ### 3. Apperçu du Jeu de données néttoyé
 
 ![data sheet](cleaned_data.png) 
- ## II. Statistique descriptives
+ ## II. Statistiques descriptives
 ![descriptive stats](descriptive_stat.png) 
 
 Ici nous avons un résumé statistique de toutes les colonnes quantitatives
