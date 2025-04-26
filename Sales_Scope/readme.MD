@@ -1,7 +1,7 @@
 # Sales Scope - Excel
 
 ## Dataset Source
-[Road Accident](/Automatisation/Raw%20data/sales_data.xlsx)
+[ventes](/Automatisation/Raw%20data/sales_data.xlsx)
 
 
 ## Objectif
